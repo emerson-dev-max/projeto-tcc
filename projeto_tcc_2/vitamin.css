@@ -1,0 +1,117 @@
+/* Página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a9c7f0;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 40px;
+}
+
+/* Botão voltar */
+.voltar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.voltar a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+}
+
+.voltar h1 {
+    font-size: 60px;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Navegação */
+.autenticacao a {
+    text-decoration: none;
+    color: white;
+    background-color: #2f3fbd;
+
+    padding: 10px 18px;
+    border-radius: 8px;
+
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* Área dos produtos */
+.produtos {
+    width: 85%;
+    margin: auto;
+
+    background-color: #02026e;
+
+    padding: 60px 40px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    gap: 50px;
+}
+
+/* Card */
+.cartao {
+    background-color: #a9c7f0;
+
+    text-align: center;
+
+    padding: 20px;
+
+    transition: 0.3s;
+}
+
+.cartao:hover {
+    transform: scale(1.05);
+}
+
+/* Imagem */
+.cartao img {
+    width: 140px;
+    height: 180px;
+    object-fit: contain;
+}
+
+/* Informações */
+.info {
+    background-color: #3f46a5;
+
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.info h2 {
+    color: white;
+    margin: 0;
+    font-size: 20px;
+}
+
+.info p {
+    color: #0080ff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+}

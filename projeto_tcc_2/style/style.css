@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #d0e0f8; /* mais leve que o atual */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #A5D6F9; /* azul mais suave */
+    color: #1F2937; /* cinza escuro, mais confortável que preto */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.autenticacao a {
+    color: #ffffff;
+    background-color: #42A5F5; /* destaque suave */
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.autenticacao_b {
+    color: #ffffff;
+    background-color: #42A5F5; /* destaque suave */
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Produtos */
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 20px;
+}
+
+.cartao {
+    background-color: #FFFFFF; /* branco limpa o visual */
+    padding: 12px;
+    text-align: center;
+    width: 250px;
+    border-radius: 12px;
+
+    /* sombra leve no lugar da borda pesada */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.cartao img {
+    width: 100%;
+    height: auto;
+    background-color: #F9FAFB;
+    border-radius: 8px;
+}
+
+.cartao p {
+    color: #374151; /* cinza elegante */
+    margin-top: 10px;
+}
+
+/* Ícones */
+.icones {
+    margin: 50px;
+}
+
+.icone {
+    flex-direction: row;
+    display: flex;
+    font-size: 30px;
+}
+
+.imgIcon {
+    margin-right: 200px;
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+    background-color: #E3F2FD; /* azul bem clarinho */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
